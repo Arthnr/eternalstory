@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Arthnr/eternalstory
   branch: main
+  auth_type: implicit
+  app_id: Ov23liB5hMrgHOtYNRWY
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
